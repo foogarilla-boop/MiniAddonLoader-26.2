@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mini_addon_loader",
+  "version": "${version}",
+  "name": "Mini Addon Loader",
+  "description": "A small client-side addon loader for Minecraft 26.2.",
+  "authors": ["Vayolin"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vayolin.miniloader.MiniAddonLoader"],
+    "modmenu": ["com.vayolin.miniloader.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
