@@ -1,7 +1,0 @@
-plugins {
-    id "net.fabricmc.fabric-loom" version "1.17-SNAPSHOT" apply false
-}
-allprojects {
-    group = "com.vayolin.miniloader"
-    version = "1.0.0"
-}
